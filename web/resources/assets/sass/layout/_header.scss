@@ -1,0 +1,13 @@
+@import "../abstracts";
+
+.header{
+    background-color: $secondary-color !important;
+  
+    &__img{
+      height: 50px;
+    }
+  
+    &__boton{
+      background-color: $tertiary-color !important;
+    }
+}

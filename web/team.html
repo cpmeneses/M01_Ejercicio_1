@@ -7,15 +7,34 @@
     <title>Home</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="assets/img/hospital-icon.jpg" alt="Ícono Hospital" width="48">
-            <a href="index.html">Home</a>
-            <a href="team.html">Equipo Médico</a>
-            <a href="contact.html">Contacto</a>
-            <button type="button">Reservar Cita</button>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img
+                class="navbar-brand"
+                src="resources/assets/img/hospital-icon.jpg"
+                alt="Ícono Hospital"
+                width="48"
+            >
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./team.html">Equipo Médico</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="button" type="button">Reservar Cita</button>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -42,12 +61,30 @@
             </article>
         </section>
     </main>
-    <footer>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="team.html">Equipo Médico</a>
-            <a href="contact.html">Contacto</a>
-            Telefono: +555 12345; Visitenos en Facebook.
+    <footer class="footer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img
+                class="navbar-brand"
+                src="resources/assets/img/hospital-icon.jpg"
+                alt="Ícono Hospital"
+                width="48"
+            >
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Equipo Médico</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+                Telefono: +555 12345; Visitenos en Facebook.
+            </div>
         </nav>
     </footer>
     <script src="index.js"></script>

@@ -1,0 +1,3 @@
+@mixin aclarar-color($color, $opacity) {
+    background-color: rgba($color, $opacity) !important;
+}

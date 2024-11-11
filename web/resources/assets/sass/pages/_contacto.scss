@@ -1,0 +1,12 @@
+.formulario{
+    @include aclarar-color($color-terciario, 0.4);
+    width: 100%;
+  
+    &__icon{
+      background-color: $color-secundario !important;
+    }
+  
+    &__boton{
+      background-color: $color-secundario !important;
+    }
+}
