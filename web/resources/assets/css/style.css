@@ -1,11 +1,19 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-color: #1d72b8 !important;
+  margin-bottom: 75px;
 }
 
 .footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
   background-color: rgb(41.1517857143, 116.9084821429, 168.3482142857) !important;
-  position: absolute;
-  bottom: 10px;
 }
 .footer__img {
   max-width: 300px;
